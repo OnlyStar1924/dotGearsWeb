@@ -1,0 +1,30 @@
+{{ define "header_css" }}{{ end }}
+
+{{ define "main" }}
+<div class="">
+    <div class="flex justify-center px-2">
+        <!-- <h1 class="title text-4xl">{{.Title}}</h1> -->
+        
+        <div class="content py-1 items-center justify-self-center">
+            {{ if .Params.image }}
+            <tr>
+                <td>
+                    <div>
+                        <br>
+                        <a href="" style="color: #17a554; font-size: 12px; font-weight: bold"> <img src="{{ .Params.image | relURL }}" alt="avatar" width="60" height="60" hspace="8" vspace="0" border="4" align="left">{{.Title}}</a><br>
+                        <hr size="2" color="#000000">
+                        {{.Description}}<br clear="all">
+                        <br>
+                    </div>
+                </td>
+            </tr>
+            {{ end }}
+            
+            <br>
+            <div class="grid justify-items-center text-left">
+                {{.Content}}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

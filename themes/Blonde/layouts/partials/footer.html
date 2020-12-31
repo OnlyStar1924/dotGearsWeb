@@ -1,0 +1,42 @@
+<footer class="bg-gray-800 text-white p-6">
+    {{ if .Site.Menus.foot }}
+    <div class="flex justify-center w-full md:flex md:flex-row sm:items-center sm:w-auto mb-4">
+        <div>
+            {{ range .Site.Menus.foot }}
+            <a href="{{ .URL }}"
+                class="no-underline block sm:inline-block text-gray-400 hover:text-white">
+                {{ .Name }}
+            </a>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+    <div class="container mr-auto ml-auto">
+
+        <div class="flex items-center justify-center">
+            <a href="https://google.com/"><img class="pr-3" src="/img/icon_appstore.png"alt="App Store" hspace="4" vspace="0"></a>
+            <a href="https://google.com/"><img src="/img/icon_googleplay.png" alt="google play" hspace="4" vspace="0"></a>
+
+        </div>
+
+
+        <div align="center" >
+            <img src="/img/knight.gif" hspace="8" vspace="8" align="center">
+        </div>
+      
+        
+        <div align="center" >
+            <p class="text-xs">&copy; <a href="{{ .Site.BaseURL }}" class="hover:text-gray-500">.GEARS</a> 2012 - {{ now.Year }}</p>
+        </div>
+        
+        <div align="center" >
+            <p class="text-gray-600 text-xs pt-4">
+                Room 1115 Daeha  Business Center Bld<br>
+                360 Kim Ma<br>
+                Ha Noi, Viet Nam</p>
+        </div>
+        <!-- <p>Powered by <a href="https://gohugo.io/" class="hover:text-gray-500">Hugo</a>, Theme <a -->
+                <!-- href="https://github.com/opera7133/Blonde" class="hover:text-gray-500">Blonde</a>.</p> -->
+    </div>
+    <script src="{{ "/js/switch.js" | relURL }}"></script>
+</footer>

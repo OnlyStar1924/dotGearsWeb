@@ -1,6 +1,6 @@
 baseURL = "https://onlystar1924.github.io"
 title = "DotGears"
-author = "wamo"
+author = "KienPham"
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -19,12 +19,12 @@ enableRobotsTXT = true
 [params]
 # The number of articles to be displayed on a single page.
 paginator_pages = "5"
+# PaginatePath = "/page/2"
 
 # Enable this if you want the archive list to be in a drop-down format.
 archive_dropdown = "false"
 
 [menu]
-
   [[menu.main]]
     identifier = "home"
     name = "Home"
@@ -32,21 +32,33 @@ archive_dropdown = "false"
     weight = 1
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
+    identifier = "game"
+    name = "Game"
+    url = "/posts/games/"
     weight = 2
 
-  [[menu.main]]
-    identifier = "privacy"
-    name = "Terms"
-    url = "/policy/"
-    weight = 3
+  # [[menu.main]]
+  #   identifier = "about"
+  #   name = "About"
+  #   url = "/about/"
+  #   weight = 2
+
+  # [[menu.main]]
+  #   identifier = "privacy"
+  #   name = "Terms"
+  #   url = "/policy/"
+  #   weight = 3
 
   [[menu.main]]
     identifier = "announce"
-    name = "Announce"
-    url = "/announce/"
+    name = "What's new"
+    url = "/posts/news/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About us"
+    url = "/about/"
     weight = 4
 
   [[menu.main]]
@@ -55,7 +67,11 @@ archive_dropdown = "false"
     url = "/careers/"
     weight = 5
 
-
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 6
 
 [taxonomies]
 category = "categories"

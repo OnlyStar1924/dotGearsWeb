@@ -4,6 +4,7 @@ date: 2013-11-06T12:09:21+07:00
 draft: false
 image: "/img/icon_juggling.png"
 description: "How many time you can juggle these two balls?"
+
 ---
 
 Genre: Arcade   
@@ -15,6 +16,11 @@ Developer: Dong Nguyen
 
 
 ![sceneshot](/img/screenshots.png)
+
+![](/img/ss_juggling_00.png)  
+![](/img/ss_juggling_01.png)  
+![](/img/ss_juggling_02.png)  
+
 
 |[![](/img/icon_appstore.png)](https://www.google.com/)|[![](/img/icon_googleplay.png)](https://www.google.com/)|
 | -------------------|----------|

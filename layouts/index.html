@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+{{- partial "head.html" . -}}
+
+<body class="font-sans">
+    <div class="min-h-screen flex flex-col">
+        {{- partial "header.html" . -}}
+        <div class="mx-auto mt-4 flex-grow" >
+            <div align="center">
+                <a href="/"> <img src="img/home.png" alt=".GEARS Home" hspace="0" vspace="0" border="4"></a>
+            </div>
+            <div align="center" class="mt-2">
+                <img src="img/banner.png" alt=".GEARS Home" hspace="0" vspace="0" border="4">
+            </div>
+            <div class="grid justify-center text-center">
+                <p class="text-4xl font-black ">.GEARS is a company ...</p>
+                <p class="max-w-lg text-justify">Fingersoft is one of the most northern game studios in the world,
+                    chilling out (literally and figuratively) just 170km south of the arctic circle in Oulu, Finland. We
+                    are best known for the mobile smash hits Hill Climb Racing and Hill Climb Racing 2, which have a
+                    combined total of over 1.5 Billion installs.</p>
+            </div>
+
+            <div>
+                <p class="text-4xl font-black text-center mt-4">LASTEST GAME</p>
+                {{ with .Site.GetPage "section" "games" }}
+                {{ range first 1 .Pages }}
+                <a href="{{.RelPermalink}}">
+                    {{ .Render "summary" }}
+                </a>
+                {{ end }}
+                {{ end }}
+            </div>
+
+            <div>
+                <p class="text-4xl font-black text-center mt-4">LASTEST NEWS</p>
+                {{ with .Site.GetPage "section" "news" }}
+                {{ range first 1 .Pages }}
+                <a href="{{.RelPermalink}}">
+                    {{ .Render "summary" }}
+                </a>
+                {{ end }}
+                {{ end }}
+            </div>
+
+            <div align="center" class="my-6">
+                <a href="https://www.dotgears.com"><img src="img/banner.png" alt="banner_legacy" hspace="0" vspace="0" border="4"> </a>
+            </div>
+
+        </div>
+        {{- partial "footer.html" . -}}
+    </div>
+</body>
+
+</html>

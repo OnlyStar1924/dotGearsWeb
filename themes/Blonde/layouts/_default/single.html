@@ -7,8 +7,7 @@
         
         <div class="content py-1 items-center justify-self-center">
             {{ if .Params.image }}
-            <tr>
-                <td>
+            
                     <div>
                         <br>
                         <a href="" style="color: #17a554; font-size: 12px; font-weight: bold"> <img src="{{ .Params.image | relURL }}" alt="avatar" width="60" height="60" hspace="8" vspace="0" border="4" align="left">{{.Title}}</a><br>
@@ -16,12 +15,13 @@
                         {{.Description}}<br clear="all">
                         <br>
                     </div>
-                </td>
-            </tr>
+
             {{ end }}
             
             <br>
-            <div class="grid justify-items-center text-left">
+            <!-- <div class="grid justify-items-center text-left max-w-sm"> -->
+            <div class="grid justify-items-center text-left max-w-lg">
+
                 {{.Content}}
             </div>
         </div>

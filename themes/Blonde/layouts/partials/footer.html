@@ -13,21 +13,36 @@
     {{ end }}
     <div class="container mr-auto ml-auto">
 
+     
         <div class="flex items-center justify-center">
             <a href="https://google.com/"><img class="pr-3" src="/img/icon_appstore.png"alt="App Store" hspace="4" vspace="0"></a>
             <a href="https://google.com/"><img src="/img/icon_googleplay.png" alt="google play" hspace="4" vspace="0"></a>
-
         </div>
 
+        <nav class="flex items-center justify-center flex-wrap bg-gray-800 pb-2 pt-2">   
+            <div class="flex">
+                <div class="navmenu">
+                    <a href="/policy/" class="no-underline inline-block mt-2 text-gray-400 hover:text-green-400 mr-4 mb-2">
+                        Terms
+                    </a>
+                    <a href="/eula/" class="no-underline inline-block mt-2 text-gray-400 hover:text-green-400 mr-4 mb-2">
+                        EULA
+                    </a>
+                    <a href="/media/" class="no-underline inline-block mt-2 text-gray-400 hover:text-green-400 mr-4 mb-2">
+                        Media
+                    </a>
+                </div> 
+            </div>
+        </nav>
+
+        <div align="center" >
+            <p class="text-xs">&copy; <a href="{{ .Site.BaseURL }}" class="hover:text-green-400">.GEARS</a> 2012 - {{ now.Year }}</p>
+        </div>
 
         <div align="center" >
             <img src="/img/knight.gif" hspace="8" vspace="8" align="center">
         </div>
-      
-        
-        <div align="center" >
-            <p class="text-xs">&copy; <a href="{{ .Site.BaseURL }}" class="hover:text-gray-500">.GEARS</a> 2012 - {{ now.Year }}</p>
-        </div>
+    
         
         <div align="center" >
             <p class="text-gray-600 text-xs pt-4">

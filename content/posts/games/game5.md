@@ -1,20 +1,21 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
-image: "/img/"
-archives: 
+title: "Game5"
+date: 2000-01-05T15:05:29+07:00
+draft: false
+image: ""
 description: ""
 ---
 
-Genre: 
-Rate:  
+Genre: Arcade
+Rate: Everyone 
 Release Date: 
 Developer: 
 
 
 
-![sceneshot](/img/screenshots.png)
+### sceneshot
+
+### download
 
 |[![](/img/icon_appstore.png)](https://www.google.com/)|[![](/img/icon_googleplay.png)](https://www.google.com/)|
 | -------------------|----------|
@@ -22,4 +23,4 @@ Developer:
 | *Thank you for playing!* | ![](/img/bird.gif) |
 | -------------------------|--------------------|
 
-[![home](/img/home.png)](/)
+### home

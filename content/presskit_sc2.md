@@ -3,6 +3,17 @@ title: "Presskit_sc2"
 date: 2020-12-28T12:21:10+07:00
 draft: false
 ---
+![presskit](/img/presskit.png)  
+
+![](/img/banner.png)  
+
+{{< test1 size="11px" color=" #ff9f36">}}Game Name:{{< /test1 >}}
+{{< test1 size="11px" >}}Swing Copters 2{{< /test1 >}}  
+{{< test1 size="11px" color=" #ff9f36">}}Developer:{{< /test1 >}}
+{{< test1 size="11px" >}}.GEAR Team{{< /test1 >}}
+
+
+
 
 {{< rawhtml>}}
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
@@ -12,9 +23,9 @@ draft: false
         <meta name="keywords" content="swing copters,android,iOS,itunes, presskit">
         <meta name="description" lang="en" content="Swing Copters 2 Presskit">
             <!-- <style type="text/css">
-                a, img {
-                    border:none;
-                }
+            a, img {
+                border:none;
+            }
             
             body,td,th {
                 font-family: Verdana, sans-serif;

@@ -4,6 +4,7 @@ date: 2013-04-26T17:24:59+07:00
 draft: false
 image: "/img/icon_shuriken.png"
 description: "Test your reflection in an extensive blocking training."
+
 ---
 
 Genre: Arcade  
@@ -13,7 +14,7 @@ Developer: Dong Nguyen
 
 
 
-### sceneshot
+### screenshot
 ![](/img/ss_shuriken_00.png)
 ![](/img/ss_shuriken_01.png)
 ![](/img/ss_shuriken_02.png)

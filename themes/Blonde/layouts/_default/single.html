@@ -5,23 +5,45 @@
     <div class="flex justify-center px-2">
         <!-- <h1 class="title text-4xl">{{.Title}}</h1> -->
         
-        <div class="content py-1 items-center justify-self-center">
+        <div class="content py-1 items-center justify-self-center max-w-3xl">
             {{ if .Params.image }}
             
-                    <div>
-                        <br>
-                        <a href="" style="color: #17a554; font-size: 12px; font-weight: bold"> <img src="{{ .Params.image | relURL }}" alt="avatar" width="60" height="60" hspace="8" vspace="0" border="4" align="left">{{.Title}}</a><br>
-                        <hr size="2" color="#000000">
-                        {{.Description}}<br clear="all">
-                        <br>
+            <div>
+                <br>
+                {{ if isset .Params "type" }}
+                    <!-- <a href="" style="color: #17a554; font-size: 12px; font-weight: bold"> <img style="border-radius: 32px 25px 42px 25px; object-fit: cover;" class="w-20 h-20" src="{{ .Params.image | relURL }}" alt="avatar" width="70" height="70" hspace="8" vspace="0" border="4" align="left">{{.Title}}</a><br> -->
+                {{ else }}
+                    <a href="" style="color: #17a554; font-size: 12px; font-weight: bold"> <img src="{{ .Params.image | relURL }}" alt="avatar" width="60" height="60" hspace="8" vspace="0" border="4" align="left">{{.Title}}</a><br>
+                    <hr size="2" color="#000000">
+                    <div class="text-sm max-w-full">
+                        {{.Description}}
                     </div>
+                    <br clear="all">
+                {{ end }}
+                    <!-- <a href="" style="color: #17a554; font-size: 12px; font-weight: bold"> <img style="border-radius: 14px 11px 25px 18px;" src="{{ .Params.image | relURL }}" alt="avatar" width="60" height="60" hspace="8" vspace="0" border="4" align="left">{{.Title}}</a><br> -->
+                
+            </div>
 
             {{ end }}
             
             <br>
             <!-- <div class="grid justify-items-center text-left max-w-sm"> -->
-            <div class="grid justify-items-center text-left max-w-lg">
+            {{ if isset .Params "type" }}
+            <!-- single news-->
+                <div class="text-gray-900 text-4xl lg:text-6xl leading-none md:text-6xl font-sans font-extrabold text-center pb-6">
+                    {{.Title}}
+                </div>
+                <div class="text-center pb-10"> 
+                    <p class="text-gray-500">
+                        <time><span class="icon-access_time mr-1 text-xs"></span>{{.Date.Format "2006/01/02"}}</time>
+                    </p>
+                </div>
+            {{ else }}
+            <!-- single game-->
+                
+            {{ end }}
 
+            <div class="grid justify-items-center text-left text-base mx-4 pb-40">
                 {{.Content}}
             </div>
         </div>

@@ -1,4 +1,4 @@
-baseURL = "https://onlystar1924.github.io"
+baseURL = "192.168.0.102"
 title = "DotGears"
 author = "KienPham"
 languageCode = "en"

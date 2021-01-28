@@ -13,9 +13,9 @@ Our support email [contact@dotgears.com](mailto:contact@dotgears.com)
 
 
 
-|![](/img/banner.png)| {{< test1 >}}.GEARS (dotGEARS) is an Internet-based company. We produce and publish bite-sized arcade mobile games.{{< /test1 >}}|
+|![](/img/banner.png)| {{< div >}}.GEARS (dotGEARS) is an Internet-based company. We produce and publish bite-sized arcade mobile games.{{< /div >}}|
 |:---|:---|
-| {{< test1 >}}.GEARS (dotGEARS) is an Internet-based company. We produce and publish bite-sized arcade mobile games.{{< /test1 >}}|![](/img/banner.png)|
+| {{< div >}}.GEARS (dotGEARS) is an Internet-based company. We produce and publish bite-sized arcade mobile games.{{< /div >}}|![](/img/banner.png)|
 
 
 

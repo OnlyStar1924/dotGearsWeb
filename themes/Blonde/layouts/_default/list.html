@@ -21,12 +21,12 @@
 
       {{ range $paginator.Pages }}
       <a href="{{.RelPermalink}}">
-        {{ .Render "summary" }}
+        {{ .Render "summary_alt" }}
       </a>
       {{ end }}
       {{ partial "paginator.html" . }}
-   
     </div>
-</div>
+  </div>
+  
 </main>
 {{ end }}

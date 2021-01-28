@@ -4,36 +4,38 @@ date: 2020-12-31T12:12:08+07:00
 draft: false
 ---
 
-{{< test1 size="11px" color=" #ff9f36">}}Kien dep trai:{{< /test1 >}}
-{{< test1 size="11px" color=" #1c9c25">}}.GEARS team is 6 members development team, led by Dong Nguyen, the creator of Flappy Bird.{{< /test1 >}}  
-{{< test1 size="11px" color=" red">}}Kien binh thuong:{{< /test1 >}}
-{{< test1 size="11px" color=" #1c9c25">}}he team was in charged of the development of Flappy Birds Family for FireTV in 2014. My role in team is production manager.My role in team is production manager.My role in team is production manager.{{< /test1 >}}
+{{< div class="text-gray-900 text-3xl lg:text-5xl font-extrabold" >}}CAREERS {{< /div >}}
+
+Games are fun. Making them should be too.
+||
+|---|
+
+{{< div class="text-gray-900 text-3xl lg:text-5xl font-extrabold" >}}WHY .GEARS?{{< /div >}}
 
 
-What is Swing Copters 2?
+|We are best known for the mobile smash hits “Hill Climb Racing” and “Hill Climb Racing 2”, which have a combined total of over 1.5 Billion installs across all platforms – However, despite our huge audience, we keep things small and personal, with a strong focus on maintaining a relaxed, casual and informal work atmosphere.|We are a bunch of fun-loving people from all over the world, united by our love for making awesome games & having a great time while doing it. We strive to empower our employees to do what they do best, rather than hamstring them with bureaucracy.|
+|---|---|
+
+{{< div class="text-gray-900 text-3xl lg:text-5xl font-extrabold" >}}YOU’LL JOIN US… {{< /div >}}|If you love gaming, have a great sense of humour and are looking for the opportunity to develop your chosen field inside a fast-growing company that takes care of its people – Then you may be the perfect fit to join one of the best places to work in Finland.|
+|---|---|
+
+{{< div class="text-gray-900 text-3xl lg:text-5xl font-extrabold" >}}OPEN POSITIONS {{< /div >}}
+
+Games are fun. Making them should be too.
+||
+|---|
+
+- [developer](https://google.com)
+- [designer](https://google.com)
+- [artis](https://google.com)
+- [manager](https://google.com)
+- [devops](https://google.com)
 
 
-Dong: Swing Copters 2 is a free-to-play arcade game and a sequel of the original Swing Copters. Users control a pilot equipped with a copter-hat to fly through obstacles to get points.  
-Trung: The control stays the same as it is in Swing Copters. We stick with our philosophy of the one-tap game. It’s perfect to enjoy with touchable screens on mobile devices.  
+
+[{{< div class="no-underline ">}}developer{{< /div >}}](https://google.com)
 
 
-
-
-
-{{< rawhtml>}}
-
-<p><font style="color: #1c9c25">What is Swing Copters 2?</font></p>
-<p><font style="color: #ff9f39">Dong: </font> Swing Copters 2 is a free-to-play arcade game and a sequel of the original Swing Copters. Users control a pilot equipped with a copter-hat to fly through obstacles to get points.</p>
-<p><font style="color: #5f85ff">Trung: </font> The control stays the same as it is in Swing Copters. We stick with our philosophy of the one-tap game. It’s perfect to enjoy with touchable screens on mobile devices.</p>
-    <div class="bg-gray-50">
-
-        <div class="copy">
-            <h3>Careers</h3>
-            <p>Join us and create games that are played for years and remembered forever.</p>
-            <p class="buttons">
-                <a href="https://www.facebook.com/hang.chipy1411" class="button18 out bright">See Careers</a>
-            </p>
-        </div>
-
-    </div>
-{{</ rawhtml>}}
+{{< div class="no-underline hover:text-green-500">}}
+[developer](https://google.com)
+{{< /div >}}

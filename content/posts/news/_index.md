@@ -8,5 +8,6 @@ draft: false
 <div align="center">
     <a href="/posts/news/"> <img src="" alt=".GEARS News" hspace="0" vspace="0" border="4"></a>
 </div>
+
  {{< /rawhtml>}}
 

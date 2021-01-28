@@ -7,15 +7,12 @@ description: "Flying is now a serious business. Join us at Copters Inc."
 
 ---
 
-{{< test1 size="12px" color=" #ff9f36">}}Genre:{{< /test1 >}}
-{{< test1 size="12px" >}}Arcade{{< /test1 >}}  
-{{< test1 size="12px" color=" #ff9f36">}}Rate:{{< /test1 >}}
-{{< test1 size="12px" >}}Everyone{{< /test1 >}}  
-{{< test1 size="12px" color=" #ff9f36">}}Release Date:{{< /test1 >}}
-{{< test1 size="12px" >}}Dec 17, 2015{{< /test1 >}}   
-{{< test1 size="12px" color=" #ff9f36">}}Developer:{{< /test1 >}}
-{{< test1 size="12px" >}}.GEAR Team{{< /test1 >}}  
-
+{{< div class="text-green-500 text-sm pr-20 sm:pr-28 md:pr-28 pb-8" >}}
+Genre: Arcade <br>   
+Rate: Everyone   <br>
+Release Date: dec 17, 2015 <br>    
+Developer: .Gears Team <br>
+{{< /div >}}
 
 ### screenshot  
 
@@ -25,40 +22,40 @@ description: "Flying is now a serious business. Join us at Copters Inc."
 
 
 ### plot  
-{{< test1 size="11px" width="300px">}}
+{{< div class="text-sm max-w-xs">}}
 Spinki Falling and Fabi Crasher have   
 been friends since primary school.  
 They grew up playing Swing Copters   
 together. But as adults, they need   
 to do something for a living.     
 And that's where our story began...  
-{{< /test1 >}}  
+{{< /div >}}  
 
 
 ![](/img/spinki_idea.png) 
 
 ### pilots  
   
-{{< test1 size="20px" color=" #1c9c25" width="300px" >}}Spinki{{< /test1 >}}  
+{{< div class="text-lg w-5/6 text-green-700" >}}Spinki{{< /div >}}  
 
 
 ![](/img/spinki_falling.png)  
 
 
-{{< test1 size="11px" width="300px">}}
+{{< div class="text-sm max-w-xs">}}
 Spinki is well known for his talent  
 in Copters. He's the best pilot in  
 the company. However, he is very  
 shy and quiet.
 <br>
 <br>
-{{< test1 size="11px" color=" #1c9c25">}}Full Name:{{< /test1 >}} Spinki Falling  <br>
-{{< test1 size="11px" color=" #1c9c25">}}Title:{{< /test1 >}} Co-Founder and CEO of Copters Inc.  <br>
-{{< test1 size="11px" color=" #1c9c25">}}Education:{{< /test1 >}} Graduated from R.A.A. (Royal Aeronautical Academy)  <br>
-{{< test1 size="11px" color=" #1c9c25">}}Zodiac Sign:{{< /test1 >}} Scorpion  <br>
-{{< test1 size="11px" color=" #1c9c25">}}Hobbies:{{< /test1 >}} Unknown  <br>
-{{< test1 size="11px" color=" #1c9c25">}}Bloodtype:{{< /test1 >}} B  <br>
-{{< /test1 >}}
+{{< text size="11px" color=" #1c9c25">}}Full Name:{{< /text >}} Spinki Falling  <br>
+{{< text size="11px" color=" #1c9c25">}}Title:{{< /text >}} Co-Founder and CEO of Copters Inc.  <br>
+{{< text size="11px" color=" #1c9c25">}}Education:{{< /text >}} Graduated from R.A.A. (Royal Aeronautical Academy)  <br>
+{{< text size="11px" color=" #1c9c25">}}Zodiac Sign:{{< /text >}} Scorpion  <br>
+{{< text size="11px" color=" #1c9c25">}}Hobbies:{{< /text >}} Unknown  <br>
+{{< text size="11px" color=" #1c9c25">}}Bloodtype:{{< /text >}} B  <br>
+{{< /div >}}
 
 
 ### guide

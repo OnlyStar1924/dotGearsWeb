@@ -7,10 +7,7 @@ draft: false
 
 ![](/img/banner.png)  
 
-{{< test1 size="11px" color=" #ff9f36">}}Game Name:{{< /test1 >}}
-{{< test1 size="11px" >}}Swing Copters 2{{< /test1 >}}  
-{{< test1 size="11px" color=" #ff9f36">}}Developer:{{< /test1 >}}
-{{< test1 size="11px" >}}.GEAR Team{{< /test1 >}}
+
 
 
 

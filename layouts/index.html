@@ -4,45 +4,68 @@
 <body class="font-sans">
     <div class="min-h-screen flex flex-col">
         {{- partial "header.html" . -}}
-        <div class="mx-auto mt-4 flex-grow" >
-            <div align="center">
+        <div class="mx-auto flex-grow gird " >
+            <!-- <div align="center">
                 <a href="/"> <img src="img/home.png" alt=".GEARS Home" hspace="0" vspace="0" border="4"></a>
+            </div> -->
+
+            <!-- no resize bg -->
+            <!-- <div class="relative flex justify-center ">
+                <img class="" style="object-fit: cover; height: 600px;" src="img/banner_home.png" alt=".GEARS Home" hspace="0" vspace="0" border="4">
+                <div class="absolute flex flex-col items-center justify-center top-0 bottom-0">
+                    <img src="img/logo_vector_invert.svg" class="w-84" alt=".GEARS Home" hspace="0" vspace="0" border="4">       
+                </div>
+            </div> -->
+
+            <!-- resize bg -->
+            <div class="relative justify-center ">
+                <img class="" style="object-fit: cover;" src="img/banner_home.png" alt=".GEARS Home" hspace="0" vspace="0" border="4">
+                <div class="w-full absolute flex items-center justify-center top-0 bottom-0">
+                    <img src="img/logo_vector_invert.svg" class="h-8 md:h-20" alt=".GEARS Home" >       
+                </div>
             </div>
-            <div align="center" class="mt-2">
-                <img src="img/banner.png" alt=".GEARS Home" hspace="0" vspace="0" border="4">
-            </div>
-            <div class="grid justify-center text-center">
-                <p class="text-4xl font-black ">.GEARS is a company ...</p>
-                <p class="max-w-lg text-justify">Fingersoft is one of the most northern game studios in the world,
+
+            <div class="grid justify-center text-center justify-items-center">
+                <p class="text-gray-900 text-4xl lg:text-6xl font-extrabold my-10">.GEARS THE COMPANY</p>
+                <p class="max-w-md text-justify mx-10 md:mx-2">Fingersoft is one of the most northern game studios in the world,
                     chilling out (literally and figuratively) just 170km south of the arctic circle in Oulu, Finland. We
                     are best known for the mobile smash hits Hill Climb Racing and Hill Climb Racing 2, which have a
                     combined total of over 1.5 Billion installs.</p>
             </div>
 
+        <div class="grid justify-center text-center">
             <div>
-                <p class="text-4xl font-black text-center mt-4">LASTEST GAME</p>
-                {{ with .Site.GetPage "section" "games" }}
-                {{ range first 1 .Pages }}
-                <a href="{{.RelPermalink}}">
-                    {{ .Render "summary" }}
-                </a>
-                {{ end }}
-                {{ end }}
+                <p class="text-gray-900 text-4xl lg:text-5xl my-20 font-extrabold w-full">FEATURE GAME</p>
+                <div class="text-left">
+                    {{ with .Site.GetPage "section" "games" }}
+                        {{ range first 1 .Pages }}
+                            <a href="{{.RelPermalink}}">
+                            {{ .Render "summary" }}
+                            </a>
+                        {{ end }}
+                    {{ end }}
+                </div>
+                
             </div>
 
             <div>
-                <p class="text-4xl font-black text-center mt-4">LASTEST NEWS</p>
-                {{ with .Site.GetPage "section" "news" }}
-                {{ range first 1 .Pages }}
-                <a href="{{.RelPermalink}}">
-                    {{ .Render "summary" }}
-                </a>
-                {{ end }}
-                {{ end }}
+                <p class="text-gray-900 text-4xl lg:text-5xl my-20 font-extrabold pl-4">LASTEST NEWS</p>
+                <div class="text-left">
+                    {{ with .Site.GetPage "section" "news" }}
+                        {{ range first 2 .Pages }}
+                        <a href="{{.RelPermalink}}">
+                            {{ .Render "summary" }}
+                            <br>
+                        </a>
+                        {{ end }}
+                    {{ end }}
+                    
+                </div>
             </div>
+        </div>
 
-            <div align="center" class="my-6">
-                <a href="https://www.dotgears.com"><img src="img/banner.png" alt="banner_legacy" hspace="0" vspace="0" border="4"> </a>
+            <div class="">
+                <br><br><br><br><br>
             </div>
 
         </div>

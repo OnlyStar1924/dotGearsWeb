@@ -2,13 +2,3 @@
   color: blue;
 }
 
-* {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.7;
-}
-
-table td{
-  border: none !important;
-}

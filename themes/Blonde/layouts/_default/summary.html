@@ -1,21 +1,30 @@
-<div class="w-full px-2 lg:max-w-full lg:flex mt-3 lg:px-0">
+<!-- home page -->
+<div class="w-full px-2 lg:max-w-full lg:flex mt-3 lg:px-0 grid justify-items-center">
     <!-- <div class="w-full px-2 lg:max-w-full lg:flex mt-3 lg:px-0 hover4"> -->
     {{ if .Params.image }}
-    <img id="thumb" class="w-auto lg:h-48" src="{{ .Params.image | relURL }}" />
+        {{ if isset .Params "type" }}
+            <img style="border-radius: 2rem; object-fit: cover;" id="thumb" class="w-64 h-64" src="{{ .Params.image | relURL }}" width="300" height="300" hspace="8" vspace="0" />
+            <!-- new page -->
+
+        {{ else }}
+            <img style="border-radius: 2rem; object-fit: cover;" id="thumb" class="w-64 h-64 " src="{{ .Params.image | relURL }}" width="300" height="300" hspace="8" vspace="0" />  <!--<img class="w-auto lg:h-48 md:h-28"/> -->
+            <!-- home page -->
+
+        {{ end }}
     {{ else }}
-    <img id="thumb" class="w-auto lg:h-48" src="{{ "/img/default.jpg" | relURL }}">
+    <img id="thumb" class="w-auto lg:h-48" src="{{ "/img/critical.png" | relURL }}">
     {{ end }}
-    <div
-        class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b-3xl lg:rounded-b-none lg:rounded-r-3xl pl-4 p-2 flex flex-col justify-between leading-normal max-w-full w-full">
+    <div class="bg-white pl-4 pt-6 lg:pl-16 flex flex-col justify-between leading-normal max-w-sm lg:max-w-lg w-full"> 
         <div class="mb-8">
-            {{if .Params.type }}
+            <!-- {{if .Params.type }}
             <div class="text-red-500 font-bold text-xl mb-2">{{.Type}}</div>
-            {{ end }}
-            <p class="text-sm text-gray-600 flex items-center">
-                <time><span class="icon-access_time mr-1"></span>{{.Date.Format "2006/01/02"}}</time>
+            {{ end }} -->
+            <p class="text-gray-500 flex items-center">
+                <time><span class="icon-access_time mr-1 text-xs"></span>{{.Date.Format "2006/01/02"}}</time>
             </p>
+
             <div class="text-gray-700 hover:text-green-400">
-                <div class="font-bold text-xl mb-2">{{.Title}}</div>
+                <div class="leading-none font-bold text-3xl lg:text-4xl pb-4">{{.Title}}</div>
                 <!-- <p class="text-gray-700 text-base">{{ substr .Summary 0 130 | plainify }}...</p> -->
                 <p class="text-base">{{.Description}}</p>
             </div>

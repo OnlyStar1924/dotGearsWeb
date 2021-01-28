@@ -628,17 +628,6 @@ video {
   color: blue;
 }
 
-* {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.7;
-}
-
-table td{
-  border: none !important;
-}
-
 /* Tailwind's utility classes - generated based on config file */
 
 .space-y-0 > :not(template) ~ :not(template) {
